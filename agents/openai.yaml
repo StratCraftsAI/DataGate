@@ -1,0 +1,7 @@
+interface:
+  display_name: "Data Boundary"
+  short_description: "Parse CSV/JSON before model analysis."
+  default_prompt: "Use $data-boundary to parse untrusted CSV or JSON before analyzing it."
+
+policy:
+  allow_implicit_invocation: true
